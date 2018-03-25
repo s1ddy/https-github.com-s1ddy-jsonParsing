@@ -38,6 +38,9 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             [_activityIndicator stopAnimating];
             _activityIndicator.hidden = YES;
+            
+            
+            
 
         });
                if (error) {
